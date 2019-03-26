@@ -1,0 +1,2 @@
+CREATE TABLE mydata.mytable (Name text PRIMARY KEY, Army_Type text)  ;
+COPY mydata.mytable(Name,Army_Type) FROM 'mydata.csv' WITH DELIMITER=',' AND HEADER=TRUE;
